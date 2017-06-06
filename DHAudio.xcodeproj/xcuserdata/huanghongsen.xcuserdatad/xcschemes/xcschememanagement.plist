@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>DHAudioKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>54B1EC2F1EE6812900366EBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54B1EC461EE6813F00366EBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54B1EC4E1EE6813F00366EBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
