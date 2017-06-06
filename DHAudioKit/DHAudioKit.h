@@ -31,3 +31,11 @@ FOUNDATION_EXPORT const unsigned char DHAudioKitVersionString[];
 #import "DHOpusAudioConverter.h"
 #import "DHAudioConverterFactory.h"
 
+//FilePlayers
+#import "DHAudioFilePlayer.h"
+#import "DHPCMAudioFilePlayer.h"
+#import "DHOpusAudioFilePlayer.h"
+#import "DHAudioFilePlayerFactory.h"
+
+//Views
+#import "DHAudioWaveView.h"

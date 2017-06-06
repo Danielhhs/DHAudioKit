@@ -56,6 +56,10 @@
 		54B1ECCF1EE69EEF00366EBD /* DHOpusDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B1ECCD1EE69EEF00366EBD /* DHOpusDecoder.m */; };
 		54B1ECD21EE69F3600366EBD /* DHAudioFilePlayerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B1ECD01EE69F3600366EBD /* DHAudioFilePlayerFactory.h */; };
 		54B1ECD31EE69F3600366EBD /* DHAudioFilePlayerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B1ECD11EE69F3600366EBD /* DHAudioFilePlayerFactory.m */; };
+		54B1ECD71EE69FC000366EBD /* DHAudioWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B1ECD51EE69FC000366EBD /* DHAudioWaveView.h */; };
+		54B1ECD81EE69FC000366EBD /* DHAudioWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B1ECD61EE69FC000366EBD /* DHAudioWaveView.m */; };
+		54B1ECDB1EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 54B1ECD91EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.c */; };
+		54B1ECDC1EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B1ECDA1EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +170,10 @@
 		54B1ECCD1EE69EEF00366EBD /* DHOpusDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHOpusDecoder.m; sourceTree = "<group>"; };
 		54B1ECD01EE69F3600366EBD /* DHAudioFilePlayerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHAudioFilePlayerFactory.h; sourceTree = "<group>"; };
 		54B1ECD11EE69F3600366EBD /* DHAudioFilePlayerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHAudioFilePlayerFactory.m; sourceTree = "<group>"; };
+		54B1ECD51EE69FC000366EBD /* DHAudioWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHAudioWaveView.h; sourceTree = "<group>"; };
+		54B1ECD61EE69FC000366EBD /* DHAudioWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHAudioWaveView.m; sourceTree = "<group>"; };
+		54B1ECD91EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NSBKeyframeAnimationFunctions.c; sourceTree = "<group>"; };
+		54B1ECDA1EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBKeyframeAnimationFunctions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +272,7 @@
 				54B1EC6D1EE68B1900366EBD /* Recorder */,
 				54B1EC821EE68DDE00366EBD /* Converter */,
 				54B1ECBF1EE694BE00366EBD /* AudioFilePlayer */,
+				54B1ECD41EE69FA600366EBD /* Views */,
 				54B1EC691EE681FB00366EBD /* DHAudioAttributes.h */,
 				54B1EC6A1EE681FB00366EBD /* DHAudioAttributes.m */,
 				54B1EC4A1EE6813F00366EBD /* Info.plist */,
@@ -376,6 +385,17 @@
 			path = AudioFilePlayer;
 			sourceTree = "<group>";
 		};
+		54B1ECD41EE69FA600366EBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54B1ECD91EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.c */,
+				54B1ECDA1EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.h */,
+				54B1ECD51EE69FC000366EBD /* DHAudioWaveView.h */,
+				54B1ECD61EE69FC000366EBD /* DHAudioWaveView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -388,6 +408,7 @@
 				54B1EC591EE6813F00366EBD /* DHAudioKit.h in Headers */,
 				54B1ECCE1EE69EEF00366EBD /* DHOpusDecoder.h in Headers */,
 				54B1EC781EE68C0900366EBD /* DHMP3AudioRecorder.h in Headers */,
+				54B1ECDC1EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.h in Headers */,
 				54B1ECC21EE694D000366EBD /* DHAudioFilePlayer.h in Headers */,
 				54B1ECBB1EE6944E00366EBD /* opus_defines.h in Headers */,
 				54B1ECBC1EE6944E00366EBD /* opus_multistream.h in Headers */,
@@ -402,6 +423,7 @@
 				54B1EC741EE68BD000366EBD /* DHAACAudioRecorder.h in Headers */,
 				54B1EC891EE691E100366EBD /* DHAACAudioConverter.h in Headers */,
 				54B1EC851EE68DF500366EBD /* DHAudioConverter.h in Headers */,
+				54B1ECD71EE69FC000366EBD /* DHAudioWaveView.h in Headers */,
 				54B1EC801EE68C5300366EBD /* DHAudioRecorderFactory.h in Headers */,
 				54B1ECBA1EE6944E00366EBD /* opus.h in Headers */,
 				54B1ECCA1EE69E5700366EBD /* DHOpusAudioFilePlayer.h in Headers */,
@@ -636,6 +658,7 @@
 			files = (
 				54B1ECA61EE692EE00366EBD /* DHOpusAudioConverter.m in Sources */,
 				54B1ECC31EE694D000366EBD /* DHAudioFilePlayer.m in Sources */,
+				54B1ECDB1EE69FFF00366EBD /* NSBKeyframeAnimationFunctions.c in Sources */,
 				54B1EC751EE68BD000366EBD /* DHAACAudioRecorder.m in Sources */,
 				54B1EC7D1EE68C3200366EBD /* DHOpusAudioRecorder.m in Sources */,
 				54B1EC711EE68B1900366EBD /* DHAudioRecorder.m in Sources */,
@@ -643,6 +666,7 @@
 				54B1ECAA1EE6932700366EBD /* DHAudioConverterFactory.m in Sources */,
 				54B1EC8E1EE6922300366EBD /* DHMP3AudioConverter.m in Sources */,
 				54B1ECD31EE69F3600366EBD /* DHAudioFilePlayerFactory.m in Sources */,
+				54B1ECD81EE69FC000366EBD /* DHAudioWaveView.m in Sources */,
 				54B1EC811EE68C5300366EBD /* DHAudioRecorderFactory.m in Sources */,
 				54B1EC6C1EE681FB00366EBD /* DHAudioAttributes.m in Sources */,
 				54B1EC861EE68DF500366EBD /* DHAudioConverter.m in Sources */,
@@ -973,6 +997,7 @@
 				54B1EC3B1EE6812900366EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54B1EC3C1EE6812900366EBD /* Build configuration list for PBXNativeTarget "DHAudioTests" */ = {
 			isa = XCConfigurationList;
@@ -981,6 +1006,7 @@
 				54B1EC3E1EE6812900366EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54B1EC3F1EE6812900366EBD /* Build configuration list for PBXNativeTarget "DHAudioUITests" */ = {
 			isa = XCConfigurationList;
@@ -989,6 +1015,7 @@
 				54B1EC411EE6812900366EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54B1EC5E1EE6813F00366EBD /* Build configuration list for PBXNativeTarget "DHAudioKit" */ = {
 			isa = XCConfigurationList;
@@ -997,6 +1024,7 @@
 				54B1EC601EE6813F00366EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54B1EC621EE6813F00366EBD /* Build configuration list for PBXNativeTarget "DHAudioKitTests" */ = {
 			isa = XCConfigurationList;
@@ -1005,6 +1033,7 @@
 				54B1EC641EE6813F00366EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
